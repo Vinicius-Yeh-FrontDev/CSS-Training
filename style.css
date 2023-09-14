@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "HankenGrotesk-VariableFont";
+  src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "HankenGrotesk-VariableFont";
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  height: 70vh;
+  width: 53%;
+  border-radius: 50px;
+  box-shadow: 0px 10px 64px 0px rgba(0, 0, 0, 0.26);
+  -webkit-box-shadow: 0px 10px 64px 0px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0px 10px 64px 0px rgba(0, 0, 0, 0.26);
+}
+.result {
+  background-image: linear-gradient(
+    to top,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  width: 50%;
+  border-radius: 50px;
+  color: white;
+}
+.result h3 {
+  text-align: center;
+  color: white;
+  opacity: 0.65;
+  margin-top: 40px;
+}
+
+.resultValue {
+  background-image: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+#result- {
+  opacity: 0.4;
+}
+#result_ {
+  font-size: 60px;
+}
+#avaliation {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.area-avaliation {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
+.area-avaliation p {
+  opacity: 0.5;
+}
+.summary {
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50px;
+}
+#title {
+  margin: 40px 0 30px 40px;
+  font-size: 20px;
+  color: hsl(224, 30%, 27%);
+}
+.area-elements {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 13px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.reaction {
+  background-color: rgb(255, 237, 237);
+}
+#reaction_ {
+  color: hsl(0, 100%, 67%);
+}
+.memory {
+  background-color: #fcffe8;
+}
+#memory_ {
+  color: hsl(39, 100%, 56%);
+}
+.verbal {
+  background-color: #f1fdee;
+}
+#verbal_ {
+  color: hsl(166, 100%, 37%);
+}
+.visual {
+  background-color: #efefff;
+}
+#visual_ {
+  color: hsl(234, 85%, 45%);
+}
+.summary p {
+  font-weight: bold;
+}
+.continue {
+  width: 85%;
+  height: 50px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 50px;
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  font-size: 15px;
+}
