@@ -136,4 +136,10 @@ body {
   background-color: hsl(224, 30%, 27%);
   color: white;
   font-size: 15px;
+  cursor: pointer;
+  transition: .6s ease;
+}
+.continue:hover{
+  transform: scale(1.1);
+  background-color: hsl(252, 100%, 67%);
 }
