@@ -141,5 +141,5 @@ body {
 }
 .continue:hover{
   transform: scale(1.1);
-  background-color: hsl(252, 100%, 67%);
+  background: hsl(252, 100%, 67%);
 }
